@@ -1,0 +1,302 @@
+body
+{
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+.images
+{
+height: 100vh;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: repeat;
+transition: 10s;
+animation-name: animate;
+animation-direction: alternate;
+animation-duration: 20s;
+animation-fill-mode: both;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease;
+}
+
+@keyframes animate
+{
+0%
+{
+background-image: url(../images/image6.jpg);
+background-position: center;
+}
+20%
+{
+background-image: url(../images/img7.jpg);
+background-position: center;
+}
+40%
+{
+background-image: url(../images/img5.jpg);
+background-position: center;
+}
+60%
+{
+background-image: url(../images/img2.jpg);
+background-position: center;
+}
+80%
+{
+background-image: url(../images/img9.jpg);
+background-position: center;
+}
+100%
+{
+background-image: url(../images/img3.jpg);
+background-position: center;
+}
+}
+
+.intro{width: 55%; height: 300px; color: white; text-align: center; padding: 40px;}
+
+.intro h1
+{
+margin-left: 210px;
+float:center;
+width:45%; 
+text-align: center;
+color: #ffffff;
+font-size: 50px;
+font-weight: 900;
+text-transform: uppercase;
+margin-top: 180px;
+border-bottom: 2px solid white;
+} 
+
+.intro p { font-size: 20px; padding: 30px 0; }
+
+.intro #button
+{  
+font-size: 18px;
+width:20%;
+background: none;
+border: 2px solid white;
+color: white;
+padding: 5px ;
+cursor: pointer;
+font-weight:bold; 
+}
+
+.intro #button:hover
+{
+background: linear-gradient(to top,white,white);
+color: black;
+}
+
+.ModalMask
+{
+width: 100%;
+height: 100%;
+top:0;
+left:0;
+background: black;
+position : fixed;
+opacity: 70%;
+}
+
+.Modal
+{
+width:723px;
+min-width:723px;
+height:330px;
+min-height:330px;
+background-color:black;
+position:fixed;
+top:0;
+left:0;
+bottom:0;
+right:0;
+margin:auto;
+border:2px solid white;
+overflow:auto;
+opacity:85%
+}
+
+.cross
+{
+float:right;
+padding:2px 7px;
+cursor:pointer;
+color:white;
+}
+
+.cross:hover
+{
+border: 2px solid white;
+background: linear-gradient(to top,white,white);
+color:black;
+}
+
+.em
+{
+margin-left:250px;
+margin-top:110px;
+font-family: 'Trebuchet MS', sans-serif;
+background: none;
+color:white;
+padding:5px;
+font-size:18px;
+}
+
+.em:hover
+{
+border:2px solid white;
+}
+
+.pw
+{
+margin-left:250px;
+margin-top:5px;
+font-family: 'Trebuchet MS', sans-serif;
+background: none;
+color:white;
+padding:5px;
+font-size:18px;
+}
+
+.pw:hover
+{
+border:2px solid white;
+}
+
+.btn
+{
+font-size: 18px;
+width:20%;
+background: none;
+border: 2px solid white;
+color: white;
+padding: 5px ;
+cursor: pointer;
+font-weight:bold; 
+margin-left:285px;
+font-family: 'Trebuchet MS', sans-serif;
+margin-top:15px;
+}
+
+.btn:hover
+{
+background: linear-gradient(to top,white,white);
+color: black;
+}
+
+.n
+{
+margin-left:250px;
+margin-top:75px;
+font-family: 'Trebuchet MS', sans-serif;
+background: none;
+color:white;
+padding:5px;
+font-size:18px;
+}
+.n:hover
+{
+border:2px solid white;
+}
+
+.r_em
+{
+margin-left:250px;
+margin-top:5px;
+font-family: 'Trebuchet MS', sans-serif;
+background: none;
+color:white;
+padding:5px;
+font-size:18px;
+}
+
+.r_em:hover
+{
+border:2px solid white;
+}
+
+.phn
+{
+margin-left:250px;
+margin-top:5px;
+font-family: 'Trebuchet MS', sans-serif;
+background: none;
+color:white;
+padding:5px;
+font-size:18px;
+}
+
+.phn:hover
+{
+border:2px solid white;
+}
+
+.r_pw
+{
+margin-left:250px;
+margin-top:5px;
+font-family: 'Trebuchet MS', sans-serif;
+background: none;
+color:white;
+padding:5px;
+font-size:18px;
+}
+
+.r_pw:hover
+{
+border:2px solid white;
+}
+
+.r_ws
+{
+margin-left:250px;
+margin-top:5px;
+font-family: 'Trebuchet MS', sans-serif;
+background: none;
+color:white;
+padding:5px;
+font-size:18px;
+}
+
+.r_ws:hover
+{
+border:2px solid white;
+}
+
+.r_btn
+{
+font-size: 18px;
+width:20%;
+background: none;
+border: 2px solid white;
+color: white;
+padding: 5px ;
+cursor: pointer;
+font-weight:bold; 
+margin-left:285px;
+margin-top:15px;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+.r_btn:hover
+{
+background: linear-gradient(to top,white,white);
+color: black;
+}
+
+.error
+{
+font-family: 'Trebuchet MS', sans-serif;
+color:white;
+font-size: 18px;
+font-weight:bold;
+background:red;
+}
+
